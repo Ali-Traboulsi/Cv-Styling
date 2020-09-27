@@ -16,20 +16,55 @@
   </head>
   <body>
     <div id="#wrapper">
-      <header>
-        <div>
-          <hgroup>
+      <header class="header">
+        <div class="title-pic">
+          <hgroup class="cv-title">
             <h1>Student Name</h1>
             <h2>Codes and Sleeps</h2>
           </hgroup>
-          <figure>
+          <figure class="pic">
             <img src="../images/110x110.png" alt="Student Name" />
           </figure>
+            <div class="contacts">
+        
+                <dt class="contact-type">Email</dt>
+              
+                <dt class="contact-type">Skype</dt>
+              
+                <dt class="contact-type">Phone/Whatsapp</dt>
+               
+              
+                <dt class="contact-type">Github</dt>
+              
+                <dt class="contact-type">Facebook</dt>
+            </div>
+            <div class="contacts-values">
+              <dd class="cntact-value">
+                <a href="mailto:student@codi.tech">student@codi.tech</a>
+              </dd>
+              <dd class="contact-value">first-last</dd>
+              <dd class="contact-value">
+                <a href="tel:+96170261482">+9613123123</a>
+              </dd>
+              <dd class="contact-value">
+                <a href="https://github.com/User/" target="_blank">UserName</a>
+              </dd>
+              <dd class="contact-value">
+                  <a href="//www.facebook.com/profileName" target="_blank"
+                    >Profile Name</a>
+                </dd>
+              </div>
+            </div>
         </div>
       </header>
       <div class="content">
+        <div class="first-row">
         <section id="about">
-          <h3>About</h3>
+          <div class="title-container">
+            <div id="circle"></div>
+            <h3 class="section-title">About</h3>
+          </div>
+          <hr>
           <p>
             Pellentesque nec nisi at sapien sagittis sagittis. Aliquam eu
             condimentum mauris. Proin accumsan enim at risus hendrerit lobortis.
@@ -39,41 +74,64 @@
             ut velit. Duis ut erat neque, eget consectetur tellus.
           </p>
         </section>
+
         <section id="competencies">
-          <h3>Competencies</h3>
-          <div class="skills skills-primary">
+
+        <div class="title-container">
+          <div id="circle"></div>
+          <h3 class="section-title">Competencies</h3>
+        </div>
+        <hr>
+          <div class="skills-primary">Main<p></p>
             <div class="skill" data-skill="5">
-              <span>HTML</span>
+              <div class="skills html">HTML</div>
             </div>
+            <p></p>
             <div class="skill" data-skill="3">
-              <span>CSS</span>
+              <div class="skills css">CSS</div>
             </div>
+            <p></p>
             <div class="skill" data-skill="1">
-              <span>Javascript</span>
+              <div class="skills js">JS</div>
             </div>
           </div>
-          <div class="skills skills-secondary">
+          <br>
+
+          <div class="skills-secondary">Other <p></p>
             <div class="skill" data-skill="9">
-              <span>HTML</span>
+              <div class="skills html-2">HTML</div>
             </div>
+            <p></p>
+
             <div class="skill" data-skill="5">
-              <span>CSS</span>
+              <div class="skills css-2">CSS</div>
             </div>
+
+            <p></p>
             <div class="skill" data-skill="7">
-              <span>Javascript</span>
+              <div class="skills js-2">JS</div>
             </div>
           </div>
         </section>
+        </div>
+          
+
+        <div class="second-row">
+
         <section id="experiences">
-          <h3>Experiences</h3>
+          <div class="title-container">
+            <div id="circle"></div>
+            <h3 class="section-title">Experiences</h3>
+          </div>
+          <hr>
           <div class="experience">
             <h4>
               <span class="experience-type">Man2ouche Seller</span>
-              <span class="experience-institution">Snack Edouard</span>
+              <span class="experience-institution"> @ Snack Edouard</span>
             </h4>
             <div class="experience-details">
               <span class="experience-location">
-                Paris
+                In Paris
               </span>
               <span class="experience-date">
                 <span class="day">30</span>
@@ -95,11 +153,11 @@
           <div class="experience">
             <h4>
               <span class="experience-type">Man2ouche Seller</span>
-              <span class="experience-institution">Snack Edouard</span>
+              <span class="experience-institution"> @ Snack Edouard</span>
             </h4>
             <div class="experience-details">
               <span class="experience-location">
-                Paris
+                In Paris
               </span>
               <span class="experience-date">
                 <span class="day">30</span>
@@ -119,16 +177,21 @@
             </p>
           </div>
         </section>
+
         <section id="education">
-          <h3>Education</h3>
+          <div class="title-container">
+            <div id="circle"></div>
+            <h3 class="section-title">Education</h3>
+          </div>
+          <hr>
           <div class="experience">
             <h4>
               <span class="experience-type">Web Stack Training</span>
-              <span class="experience-institution">Codi</span>
+              <span class="experience-institution"> @ Codi</span>
             </h4>
             <div class="experience-details">
               <span class="experience-location">
-                Beirut
+                In Beirut
               </span>
               <span class="experience-date">
                 <span class="day">30</span>
@@ -150,11 +213,11 @@
           <div class="experience">
             <h4>
               <span class="experience-type">Man2ouche Seller</span>
-              <span class="experience-institution">Snack Edouard</span>
+              <span class="experience-institution"> @ Snack Edouard</span>
             </h4>
             <div class="experience-details">
               <span class="experience-location">
-                Paris
+                In Paris
               </span>
               <span class="experience-date">
                 <span class="day">30</span>
@@ -174,49 +237,28 @@
             </p>
           </div>
         </section>
+      </div>
+
+  
+      <div class="third-row"></div>
         <section id="hobbies">
-          <h3>Hobbies</h3>
+          <div class="title-container">
+            <div id="circle"></div>
+            <h3 class="section-title">Hobbies</h3>
+          </div>
+          <hr>
           <ul>
             <li>Watching Youtube</li>
             <li>Sleeping</li>
             <li>Writing CVs</li>
           </ul>
         </section>
-        <section id="contact">
-          <h3>Contact</h3>
-          <div class="contacts">
-            <dl class="contact contact-email">
-              <dt class="contact-type">Email</dt>
-              <dd class="contact-value">
-                <a href="mailto:student@codi.tech">student@codi.tech</a>
-              </dd>
-            </dl>
-            <dl class="contact contact-skype">
-              <dt class="contact-type">Skype</dt>
-              <dd class="contact-value">first-last</dd>
-            </dl>
-            <dl class="contact contact-phone">
-              <dt class="contact-type">Phone/Whatsapp</dt>
-              <dd class="contact-value">
-                <a href="tel:+96170261482">+9613123123</a>
-              </dd>
-            </dl>
-            <dl class="contact contact-github">
-              <dt class="contact-type">Github</dt>
-              <dd class="contact-value">
-                <a href="https://github.com/User/" target="_blank">UserName</a>
-              </dd>
-            </dl>
-            <dl class="contact contact-facebook">
-              <dt class="contact-type">Facebook</dt>
-              <dd class="contact-value">
-                <a href="//www.facebook.com/profileName" target="_blank"
-                  >Profile Name</a
-                >
-              </dd>
-            </dl>
-          </div>
-        </section>
+      </div>
+        
+     
+        
+        
+        
       </div>
     </div>
   </body>

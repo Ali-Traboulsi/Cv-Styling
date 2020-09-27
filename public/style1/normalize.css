@@ -448,3 +448,184 @@ template {
 [hidden] {
   display: none;
 }
+
+.title-pic{
+  background-color: lightslategray;
+  height: 175px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.cv-title{
+  color: red;
+  padding-left: 100px;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  width: 50%;
+}
+
+.pic{
+  flex-direction: row;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+.contacts{
+  flex-direction: row;
+  background-color: red;
+  width: 400px;
+  height: 150px;
+  color: white;
+  margin-left: 75px;
+  margin-top: 15px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.contacts-values{
+  background-color: black;
+  flex-direction: row;
+  color: red;
+  width: 100%;
+  margin-top: 15px;
+  padding-top: px;
+  height: 150px;
+  line-height: 30px;
+}
+
+a{
+  color: red;
+}
+
+.first-row{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#about{
+  width: 450px;
+  
+}
+
+#competencies{
+  width: 450px;
+  margin-left: 250px;
+}
+
+.skill{
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+  *{box-sizing: border-box;}
+
+.skills{
+  line-height: 30px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: white;
+}
+
+.html{width: 50%; background-color: red;}
+.css{width: 30%; background-color: red;}
+.js{width: 10%; background-color: red;}
+
+
+.html-2{width: 90%; background-color: red;}
+.css-2{width: 50%; background-color: red;}
+.js-2{width: 70%; background-color: red;}
+
+
+
+.title-container{
+  display: flex;
+}
+
+
+#circle {
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+  flex-direction: row;
+}
+
+.section-title{
+  flex-direction: row;
+  padding-left: 10px;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.skills-primary{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.second-row{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.experience{
+  width: 450px;
+}
+
+#education{
+  width: 450px;
+  margin-left: 250px;
+
+}
+
+
+.experience-type{
+  color:red;
+}
+
+.experience-institution{
+  color: red;
+  font-weight: lighter;
+}
+
+.experience-details{
+  color: black;
+  opacity: 50%;
+}
+
+
+.third-row{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+  
+}
+
+#hobbies{
+  width: 450px;
+  margin-left: 150px;
+}
+
+hr{
+  color: gray;
+  opacity: 50%;
+}
